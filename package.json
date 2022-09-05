@@ -1,0 +1,15 @@
+{
+  "name": "node-simple-proxy-daemon",
+  "version": "0.0.0",
+  "description": "Simple proxy Daemon written in Node.js",
+  "main": "proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node proxy.js"
+  },
+  "author": "Fardjad Davari",
+  "license": "MIT",
+  "dependencies": {
+    "daemon": "~1.1.0"
+  }
+}
