@@ -3,4 +3,10 @@
 3. run start.cmd
 4. stop.cmd for quit service
 
-for Linux https://www.digitalocean.com/community/tutorials/how-to-write-a-linux-daemon-with-node-js-on-a-vps
+for Linux[use PM2 setup daemon for Linux Node js](https://www.heelpbook.net/2021/run-node-js-app-as-a-daemon-process-linux/)
+
+1. sudo npm install pm2 -g
+2. pm2 --version
+3. pm2 --name nodeProxy start npm -- start
+4. check status: pm2 ps
+5. check logs: pm2 logs
