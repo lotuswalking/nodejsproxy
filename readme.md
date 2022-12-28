@@ -10,3 +10,4 @@ for Linux[use PM2 setup daemon for Linux Node js](https://www.heelpbook.net/2021
 3. pm2 --name nodeProxy start npm -- start
 4. check status: pm2 ps
 5. check logs: pm2 logs
+6. firewall-cmd --zone=public --add-port=8080/tcp --permanent
