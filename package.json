@@ -10,6 +10,7 @@
   "author": "Fardjad Davari",
   "license": "MIT",
   "dependencies": {
-    "daemon": "~1.1.0"
+    "daemon": "~1.1.0",
+    "forever": "^4.0.3"
   }
 }

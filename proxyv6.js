@@ -66,10 +66,10 @@ server.on("close", () => {
 
 server.listen(
     {
-        host: "0.0.0.0",
-        port: 9080,
+    
+        port: 3000,
     },
     () => {
-        console.log("Server listening on 0.0.0.0:9080");
+        console.log("Server listening 3000");
     }
 );
