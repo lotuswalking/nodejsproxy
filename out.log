@@ -1,0 +1,827 @@
+Server listening on 0.0.0.0:9080
+Client connected to proxy
+Client connected to proxy
+CONNECT mail.google.com:443 HTTP/1.1
+Host: mail.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+mail.google.com
+CONNECT fonts.gstatic.com:443 HTTP/1.1
+Host: fonts.gstatic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+fonts.gstatic.com
+Proxy to server set up
+Proxy to server set up
+Client connected to proxy
+CONNECT www.gstatic.com:443 HTTP/1.1
+Host: www.gstatic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+www.gstatic.com
+Proxy to server set up
+Client connected to proxy
+CONNECT www.gstatic.com:443 HTTP/1.1
+Host: www.gstatic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+www.gstatic.com
+Proxy to server set up
+Client connected to proxy
+CONNECT ssl.gstatic.com:443 HTTP/1.1
+Host: ssl.gstatic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+ssl.gstatic.com
+Proxy to server set up
+Client connected to proxy
+CONNECT ssl.gstatic.com:443 HTTP/1.1
+Host: ssl.gstatic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+ssl.gstatic.com
+Proxy to server set up
+Client connected to proxy
+CONNECT aa.google.com:443 HTTP/1.1
+Host: aa.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+aa.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT ssl.gstatic.com:443 HTTP/1.1
+Host: ssl.gstatic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+ssl.gstatic.com
+Proxy to server set up
+Client connected to proxy
+CONNECT www.google.com:443 HTTP/1.1
+Host: www.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+www.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT clients2.google.com:443 HTTP/1.1
+Host: clients2.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+clients2.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT aa.google.com:443 HTTP/1.1
+Host: aa.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+aa.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT play.google.com:443 HTTP/1.1
+Host: play.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+play.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT play.google.com:443 HTTP/1.1
+Host: play.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+play.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT signaler-pa.clients6.google.com:443 HTTP/1.1
+Host: signaler-pa.clients6.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+signaler-pa.clients6.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT play.google.com:443 HTTP/1.1
+Host: play.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+play.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT mail-ads.google.com:443 HTTP/1.1
+Host: mail-ads.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+mail-ads.google.com
+Client connected to proxy
+CONNECT peoplestackwebexperiments-pa.clients6.google.com:443 HTTP/1.1
+Host: peoplestackwebexperiments-pa.clients6.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+peoplestackwebexperiments-pa.clients6.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT people-pa.clients6.google.com:443 HTTP/1.1
+Host: people-pa.clients6.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+people-pa.clients6.google.com
+Proxy to server set up
+Proxy to server set up
+Client connected to proxy
+CONNECT contacts.google.com:443 HTTP/1.1
+Host: contacts.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+contacts.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT content-autofill.googleapis.com:443 HTTP/1.1
+Host: content-autofill.googleapis.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+content-autofill.googleapis.com
+Proxy to server set up
+Client connected to proxy
+CONNECT storage.live.com:443 HTTP/1.1
+Host: storage.live.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+storage.live.com
+Proxy to server set up
+Client connected to proxy
+CONNECT addons-pa.clients6.google.com:443 HTTP/1.1
+Host: addons-pa.clients6.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+addons-pa.clients6.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT signaler-pa.clients6.google.com:443 HTTP/1.1
+Host: signaler-pa.clients6.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+signaler-pa.clients6.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT mail-ads.google.com:443 HTTP/1.1
+Host: mail-ads.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+mail-ads.google.com
+Client connected to proxy
+CONNECT peoplestackwebexperiments-pa.clients6.google.com:443 HTTP/1.1
+Host: peoplestackwebexperiments-pa.clients6.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+peoplestackwebexperiments-pa.clients6.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT people-pa.clients6.google.com:443 HTTP/1.1
+Host: people-pa.clients6.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+people-pa.clients6.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT clients6.google.com:443 HTTP/1.1
+Host: clients6.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+clients6.google.com
+Proxy to server set up
+Proxy to server set up
+Client connected to proxy
+CONNECT addons-pa.clients6.google.com:443 HTTP/1.1
+Host: addons-pa.clients6.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+addons-pa.clients6.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT login.live.com:443 HTTP/1.1
+Host: login.live.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+login.live.com
+Proxy to server set up
+Client connected to proxy
+CONNECT ogs.google.com:443 HTTP/1.1
+Host: ogs.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+ogs.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT clients6.google.com:443 HTTP/1.1
+Host: clients6.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+clients6.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT apis.google.com:443 HTTP/1.1
+Host: apis.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+apis.google.com
+Proxy to server set up
+Client connected to proxy
+Client connected to proxy
+Client connected to proxy
+CONNECT fonts.googleapis.com:443 HTTP/1.1
+Host: fonts.googleapis.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+fonts.googleapis.com
+CONNECT stackpath.bootstrapcdn.com:443 HTTP/1.1
+Host: stackpath.bootstrapcdn.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+stackpath.bootstrapcdn.com
+CONNECT cdn.jsdelivr.net:443 HTTP/1.1
+Host: cdn.jsdelivr.net:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+cdn.jsdelivr.net
+Proxy to server set up
+Proxy to server set up
+Client connected to proxy
+CONNECT cdn.jsdelivr.net:443 HTTP/1.1
+Host: cdn.jsdelivr.net:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+cdn.jsdelivr.net
+Client connected to proxy
+Proxy to server set up
+CONNECT www.googletagmanager.com:443 HTTP/1.1
+Host: www.googletagmanager.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+www.googletagmanager.com
+Proxy to server set up
+Proxy to server set up
+Client connected to proxy
+CONNECT fonts.gstatic.com:443 HTTP/1.1
+Host: fonts.gstatic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+fonts.gstatic.com
+Proxy to server set up
+Client connected to proxy
+CONNECT stackpath.bootstrapcdn.com:443 HTTP/1.1
+Host: stackpath.bootstrapcdn.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+stackpath.bootstrapcdn.com
+Proxy to server set up
+Client connected to proxy
+CONNECT fonts.gstatic.com:443 HTTP/1.1
+Host: fonts.gstatic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+fonts.gstatic.com
+Proxy to server set up
+Client connected to proxy
+CONNECT www.google-analytics.com:443 HTTP/1.1
+Host: www.google-analytics.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+www.google-analytics.com
+Client connected to proxy
+CONNECT content-autofill.googleapis.com:443 HTTP/1.1
+Host: content-autofill.googleapis.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+content-autofill.googleapis.com
+Proxy to server set up
+Proxy to server set up
+Client connected to proxy
+CONNECT appsgrowthpromo-pa.clients6.google.com:443 HTTP/1.1
+Host: appsgrowthpromo-pa.clients6.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+appsgrowthpromo-pa.clients6.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT clients6.google.com:443 HTTP/1.1
+Host: clients6.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+clients6.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT apis.google.com:443 HTTP/1.1
+Host: apis.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+apis.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT clients6.google.com:443 HTTP/1.1
+Host: clients6.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+clients6.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT play.google.com:443 HTTP/1.1
+Host: play.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+play.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT ssl.gstatic.com:443 HTTP/1.1
+Host: ssl.gstatic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+ssl.gstatic.com
+Proxy to server set up
+Client connected to proxy
+CONNECT ssl.gstatic.com:443 HTTP/1.1
+Host: ssl.gstatic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+ssl.gstatic.com
+Proxy to server set up
+Client connected to proxy
+CONNECT storage.live.com:443 HTTP/1.1
+Host: storage.live.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+storage.live.com
+Proxy to server set up
+Client connected to proxy
+CONNECT translate.google.ca:443 HTTP/1.1
+Host: translate.google.ca:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+translate.google.ca
+Proxy to server set up
+Client connected to proxy
+CONNECT login.live.com:443 HTTP/1.1
+Host: login.live.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+login.live.com
+Proxy to server set up
+Client connected to proxy
+CONNECT www.gstatic.com:443 HTTP/1.1
+Host: www.gstatic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+www.gstatic.com
+Proxy to server set up
+Client connected to proxy
+CONNECT www.google.ca:443 HTTP/1.1
+Host: www.google.ca:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+www.google.ca
+Proxy to server set up
+Client connected to proxy
+CONNECT signaler-pa.clients6.google.com:443 HTTP/1.1
+Host: signaler-pa.clients6.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+signaler-pa.clients6.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT ci3.googleusercontent.com:443 HTTP/1.1
+Host: ci3.googleusercontent.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+ci3.googleusercontent.com
+Proxy to server set up
+Client connected to proxy
+CONNECT people-pa.clients6.google.com:443 HTTP/1.1
+Host: people-pa.clients6.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+people-pa.clients6.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT people-pa.clients6.google.com:443 HTTP/1.1
+Host: people-pa.clients6.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+people-pa.clients6.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT clients4.google.com:443 HTTP/1.1
+Host: clients4.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+clients4.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT stats.g.doubleclick.net:443 HTTP/1.1
+Host: stats.g.doubleclick.net:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+stats.g.doubleclick.net
+Proxy to server set up
+Proxy to server error
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {
+  errno: -4077,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+Client connected to proxy
+CONNECT drive.google.com:443 HTTP/1.1
+Host: drive.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+drive.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT docs.google.com:443 HTTP/1.1
+Host: docs.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+docs.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT www.gstatic.com:443 HTTP/1.1
+Host: www.gstatic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+www.gstatic.com
+Proxy to server set up
+Client connected to proxy
+CONNECT fonts.googleapis.com:443 HTTP/1.1
+Host: fonts.googleapis.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+fonts.googleapis.com
+Proxy to server set up
+Client connected to proxy
+CONNECT ssl.gstatic.com:443 HTTP/1.1
+Host: ssl.gstatic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+ssl.gstatic.com
+Proxy to server set up
+Client connected to proxy
+CONNECT drive-thirdparty.googleusercontent.com:443 HTTP/1.1
+Host: drive-thirdparty.googleusercontent.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+drive-thirdparty.googleusercontent.com
+Proxy to server set up
+Client connected to proxy
+CONNECT drive-thirdparty.googleusercontent.com:443 HTTP/1.1
+Host: drive-thirdparty.googleusercontent.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+drive-thirdparty.googleusercontent.com
+Proxy to server set up
+Client connected to proxy
+CONNECT clients2.google.com:443 HTTP/1.1
+Host: clients2.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+clients2.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT signaler-pa.clients6.google.com:443 HTTP/1.1
+Host: signaler-pa.clients6.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+signaler-pa.clients6.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT ssl.gstatic.com:443 HTTP/1.1
+Host: ssl.gstatic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+ssl.gstatic.com
+Proxy to server set up
+Client connected to proxy
+CONNECT clients4.google.com:443 HTTP/1.1
+Host: clients4.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+clients4.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT drive.google.com:443 HTTP/1.1
+Host: drive.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+drive.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT github.com:443 HTTP/1.1
+Host: github.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+github.com
+Proxy to server set up
+Client connected to proxy
+CONNECT avatars.githubusercontent.com:443 HTTP/1.1
+Host: avatars.githubusercontent.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+avatars.githubusercontent.com
+Proxy to server set up
+Client connected to proxy
+CONNECT content-autofill.googleapis.com:443 HTTP/1.1
+Host: content-autofill.googleapis.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+content-autofill.googleapis.com
+Proxy to server set up
+Client connected to proxy
+CONNECT collector.github.com:443 HTTP/1.1
+Host: collector.github.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+collector.github.com
+Proxy to server set up
+Client connected to proxy
+CONNECT api.github.com:443 HTTP/1.1
+Host: api.github.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+api.github.com
+Proxy to server set up
+Client connected to proxy
+CONNECT docs.google.com:443 HTTP/1.1
+Host: docs.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+docs.google.com
+Proxy to server set up
+Client connected to proxy
+Client connected to proxy
+CONNECT docs.google.com:443 HTTP/1.1
+Host: docs.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+docs.google.com
+CONNECT docs.google.com:443 HTTP/1.1
+Host: docs.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+docs.google.com
+Client connected to proxy
+Client connected to proxy
+CONNECT docs.google.com:443 HTTP/1.1
+Host: docs.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+docs.google.com
+CONNECT docs.google.com:443 HTTP/1.1
+Host: docs.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+docs.google.com
+Proxy to server set up
+Proxy to server set up
+Proxy to server set up
+Proxy to server set up
+Client connected to proxy
+CONNECT alive.github.com:443 HTTP/1.1
+Host: alive.github.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+alive.github.com
+Proxy to server set up
+Client connected to proxy
+CONNECT www.googleapis.com:443 HTTP/1.1
+Host: www.googleapis.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+www.googleapis.com
+Proxy to server set up
+Client connected to proxy
+CONNECT passwordsleakcheck-pa.googleapis.com:443 HTTP/1.1
+Host: passwordsleakcheck-pa.googleapis.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+passwordsleakcheck-pa.googleapis.com
+Proxy to server set up
+Client connected to proxy
+CONNECT alive.github.com:443 HTTP/1.1
+Host: alive.github.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+alive.github.com
+Proxy to server set up
+Client connected to proxy
+CONNECT play.google.com:443 HTTP/1.1
+Host: play.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+play.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT play.google.com:443 HTTP/1.1
+Host: play.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+play.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT play.google.com:443 HTTP/1.1
+Host: play.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+play.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT clients6.google.com:443 HTTP/1.1
+Host: clients6.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+clients6.google.com
+Proxy to server set up
+Client connected to proxy
+CONNECT clients6.google.com:443 HTTP/1.1
+Host: clients6.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+
+
+clients6.google.com
+Proxy to server set up
