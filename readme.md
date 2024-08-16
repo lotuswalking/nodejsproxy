@@ -1,7 +1,11 @@
-1. install node js
-2. install forever by npm install forever
-3. run start.cmd
-4. stop.cmd for quit service
+updated windows service installation:
+1. have to install node js
+
+2. run cmd at the admin model
+
+3. run ```npm install node-windows```
+
+4. run ```node install-windows-service.js```
 
 
 for Linux[use PM2 setup daemon for Linux Node js](https://www.heelpbook.net/2021/run-node-js-app-as-a-daemon-process-linux/)
