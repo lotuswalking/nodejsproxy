@@ -25,29 +25,33 @@ function log(message, level = "INFO",filePath=".\\logs\\out.log") {
             console.error("Error in writing to log file:", err);
         }
     });
-    console.log(logMessage);
+    if (level === "ERROR") {
+        console.error(logMessage);
+    }else{
+        console.log(logMessage);
+    }
+    
 }
 
 
 
 server.on("connection", (clientToProxySocket) => {
-    log("Client connected to proxy");
+    // log message "client {ip}:{port} connected"
+    // log(`Client ${clientToProxySocket.remoteAddress}:${clientToProxySocket.remotePort} connected`);
+
     clientToProxySocket.once("data", (data) => {
         let isTLSConnection = data.toString().indexOf("CONNECT") !== -1;
-        let serverPort = 80;
+        // let serverPort = 80;
         let serverAddress;
-        log(data.toString());
-        if (isTLSConnection) {
-            serverPort = 443;
-            serverAddress = data
-                .toString()
-                .split("CONNECT")[1]
-                .split(" ")[1]
-                .split(":")[0];
-        } else {
-            serverAddress = data.toString().split("Host: ")[1].split("\r\n")[0];
-        }
-        log(serverAddress);
+        serverPort = 443;
+        serverPort = data.toString().split("CONNECT")[1].split(" ")[1].split(":")[1];
+        serverAddress = data
+            .toString()
+            .split("CONNECT")[1]
+            .split(" ")[1]
+            .split(":")[0];
+       
+        log(`Client ${clientToProxySocket.remoteAddress} request to url: ${serverAddress}::${serverPort}`);
 
         // Creating a connection from proxy to destination server
         let proxyToServerSocket = net.createConnection(
@@ -56,35 +60,27 @@ server.on("connection", (clientToProxySocket) => {
                 port: serverPort,
             },
             () => {
-                log("Proxy to server set up");
+                // log("Proxy to server set up");
             }
         );
 
-
-        if (isTLSConnection) {
-            clientToProxySocket.write("HTTP/1.1 200 OK\r\n\r\n");
-        } else {
-            proxyToServerSocket.write(data);
-        }
+        clientToProxySocket.write("HTTP/1.1 200 OK\r\n\r\n");
 
         clientToProxySocket.pipe(proxyToServerSocket);
         proxyToServerSocket.pipe(clientToProxySocket);
 
         proxyToServerSocket.on("error", (err) => {
-            log("Proxy to server error");
-            log(err);
+            log(err, "ERROR");
         });
 
         clientToProxySocket.on("error", (err) => {
-            log("Client to proxy error");
-            log(err)
+            log(err,"ERROR");
         });
     });
 });
 
 server.on("error", (err) => {
-    log("Some internal server error occurred");
-    log(err);
+    log(err,"ERROR");
 });
 
 server.on("close", () => {
