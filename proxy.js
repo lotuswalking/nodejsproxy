@@ -1,7 +1,7 @@
 // Import of net module
 const net = require("net");
 const server = net.createServer();
-
+const blacklist = getIPList()
 port = 9080;
 // a function to print logs into log.out file, input message content
 // logs include timestamp, log level and message content
@@ -32,15 +32,39 @@ function log(message, level = "INFO",filePath=".\\logs\\out.log") {
     }
     
 }
-
+// get a list of all IP address from txt file, txt file name is input paramter by default as "ip.txt", retrun a [] of ip address
+// if file not found, return []
+function getIPList(filePath=".\\ipblock.txt") {
+    const fs = require("fs");
+    const path = require("path");
+    const ipList = [];
+    if (!fs.existsSync(filePath)) {
+        log(`File ${filePath} not found.`, "ERROR");
+        return ipList;
+    }
+    const data = fs.readFileSync(filePath, "utf8");
+    const lines = data.split(/\r?\n/);
+    lines.forEach((line) => {
+        if (line.trim() !== "") {
+            ipList.push(line.trim());
+        }
+    });
+    return ipList;
+}
 
 
 server.on("connection", (clientToProxySocket) => {
-    // log message "client {ip}:{port} connected"
-    // log(`Client ${clientToProxySocket.remoteAddress}:${clientToProxySocket.remotePort} connected`);
-
+    // make a filter by client ip address using a blacklist
+    // if the client ip address is in the blacklist, close the connection
+    // else, continue the connection
+    const clientIp = clientToProxySocket.remoteAddress;
+    if (blacklist.includes(clientIp)) {
+        log(`Blocked client ${clientIp}`, "WARN");
+        clientToProxySocket.end();
+        return;
+    }
     clientToProxySocket.once("data", (data) => {
-        let isTLSConnection = data.toString().indexOf("CONNECT") !== -1;
+        
         // let serverPort = 80;
         let serverAddress;
         serverPort = 443;
