@@ -87,10 +87,6 @@ server.on("connection", (clientToProxySocket) => {
                 // log("Proxy to server set up");
             }
         );
-        // Define the log function
-        const log = (message, level = "INFO") => {
-            console.log(`[${level}] ${message}`);
-        };
 
         clientToProxySocket.write("HTTP/1.1 200 OK\r\n\r\n");
 
