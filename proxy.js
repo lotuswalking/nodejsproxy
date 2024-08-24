@@ -87,6 +87,10 @@ server.on("connection", (clientToProxySocket) => {
                 // log("Proxy to server set up");
             }
         );
+        // Define the log function
+        const log = (message, level = "INFO") => {
+            console.log(`[${level}] ${message}`);
+        };
 
         clientToProxySocket.write("HTTP/1.1 200 OK\r\n\r\n");
 
@@ -94,21 +98,21 @@ server.on("connection", (clientToProxySocket) => {
         proxyToServerSocket.pipe(clientToProxySocket);
 
         proxyToServerSocket.on("error", (err) => {
-            log(err, "ERROR");
+            log("proxyToServerSocket on error: "+err, "ERROR");
         });
 
         clientToProxySocket.on("error", (err) => {
-            log(err,"ERROR");
+            log("clientToProxySocket on error: "+err,"ERROR");
         });
     });
 });
 
 server.on("error", (err) => {
-    log(err,"ERROR");
+    log("Server on error: "+err,"ERROR");
 });
 
 server.on("close", () => {
-    log("Client disconnected");
+    log("server closed: Client disconnected");
 });
 
 server.listen(
