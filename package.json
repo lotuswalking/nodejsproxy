@@ -11,6 +11,8 @@
   "license": "MIT",
   "dependencies": {
     "daemon": "~1.1.0",
-    "forever": "^4.0.3"
+    "forever": "^4.0.3",
+    "node-simple-proxy-daemon": "file:",
+    "node-windows": "^1.0.0-beta.8"
   }
 }

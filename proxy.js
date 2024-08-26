@@ -1,38 +1,12 @@
 // Import of net module
+let {globalFilePath, log } = require("./utils.js");
+globalFilePath = ".\\logs\\out.log";
 const net = require("net");
 const server = net.createServer();
 server.maxConnections = 50; // set max connection to 50
 const blacklist = getIPList()
 port = 9080;
-// a function to print logs into log.out file, input message content
-// logs include timestamp, log level and message content
-// log levels include INFO, WARN, ERROR, default is INFO
-// also print logs to console
-function log(message, level = "INFO",filePath=".\\logs\\out.log") {
-    const fs = require("fs");
-    const path = require("path");
-    const date = new Date();
-    const formattedDate = date.toISOString().replace('T', ' ').substring(0, 19);
-    const logMessage = `${formattedDate} [${level}] ${message}\n`;
 
-     // Ensure the directory exists
-    const dir = path.dirname(filePath);
-    if (!fs.existsSync(dir)) {
-        fs.mkdirSync(dir, { recursive: true });
-    }
-
-    fs.appendFile(filePath, logMessage, (err) => {
-        if (err) {
-            console.error("Error in writing to log file:", err);
-        }
-    });
-    if (level === "ERROR") {
-        console.error(logMessage);
-    }else{
-        console.log(logMessage);
-    }
-    
-}
 // get a list of all IP address from txt file, txt file name is input paramter by default as "ip.txt", retrun a [] of ip address
 // if file not found, return []
 function getIPList(filePath=".\\ipblock.txt") {
