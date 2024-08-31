@@ -3,7 +3,7 @@ let {globalFilePath, log } = require("./utils.js");
 globalFilePath = ".\\logs\\out.log";
 const net = require("net");
 const server = net.createServer();
-server.maxConnections = 50; // set max connection to 50
+// server.maxConnections = 50; // set max connection to 50
 const blacklist = getIPList()
 port = 9080;
 
