@@ -70,9 +70,9 @@ server.on("connection", (clientToProxySocket) => {
 
         clientToProxySocket.on("close", (hadError) => {
         if (hadError) {
-            log("Connection closed due to an error", "ERROR");
+            log("client Connection closed due to an error", "ERROR");
         } else {
-            log("Connection closed normally");
+            log("client Connection closed normally");
         }
         proxyToServerSocket.end();
         
