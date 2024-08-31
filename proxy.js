@@ -68,12 +68,24 @@ server.on("connection", (clientToProxySocket) => {
         clientToProxySocket.pipe(proxyToServerSocket);
         proxyToServerSocket.pipe(clientToProxySocket);
 
+        clientToProxySocket.on("close", (hadError) => {
+        if (hadError) {
+            log("Connection closed due to an error", "ERROR");
+        } else {
+            log("Connection closed normally");
+        }
+        proxyToServerSocket.end();
+        
+    });
+
         proxyToServerSocket.on("error", (err) => {
             log("proxyToServerSocket on error: "+err, "ERROR");
+            clientToProxySocket.end();
         });
 
         clientToProxySocket.on("error", (err) => {
             log("clientToProxySocket on error: "+err,"ERROR");
+            proxyToServerSocket.end();
         });
     });
 });
