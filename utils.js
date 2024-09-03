@@ -6,6 +6,8 @@ function log(message, level = "INFO", filePath = globalFilePath) {
     const date = new Date();
     const formattedDate = date.toISOString().replace('T', ' ').substring(0, 19);
     const logMessage = `${formattedDate} [${level}] ${message}\n`;
+    console.log(logMessage);
+    return;
 
     // Ensure the directory exists
     const dir = path.dirname(filePath);
