@@ -27,17 +27,25 @@ function getIPList(filePath=".\\ipblock.txt") {
     return ipList;
 }
 
+server.on("connectionAttempt", (clientToProxySocket) => {
+    
+       const clientIp = clientToProxySocket.remoteAddress;
+    if (blacklist.includes(clientIp)) {
+        log(`Blocked client ${clientIp}`, "WARN");
+        // reject the connectionAttempt
+        log("Connection attempt for blocked client rejected");
+        clientToProxySocket.end();
+        
+
+    }  
+});
 
 server.on("connection", (clientToProxySocket) => {
     // make a filter by client ip address using a blacklist
     // if the client ip address is in the blacklist, close the connection
     // else, continue the connection
-    const clientIp = clientToProxySocket.remoteAddress;
-    if (blacklist.includes(clientIp)) {
-        log(`Blocked client ${clientIp}`, "WARN");
-        clientToProxySocket.end();
-        return;
-    }
+
+  
     clientToProxySocket.once("data", (data) => {
         
         // let serverPort = 80;
