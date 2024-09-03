@@ -64,6 +64,6 @@ proxy.on('error', (err, req, res) => {
 });
 
 // Listen on port 9080 for all IP addresses
-server.listen(9089, '0.0.0.0', () => {
+server.listen(9090, '0.0.0.0', () => {
   console.log('Proxy server is running on port 9090');
 });
